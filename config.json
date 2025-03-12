@@ -9,7 +9,7 @@
   "chat_batch_size": "128",
   "prompt_template": "chatml",
   "reverse_prompt": "",
-  "system_prompt": "You are an expert in World of Warcraft and Wowhead, assisting players with finding items, completing quests, selecting builds, and understanding game mechanics. Provide accurate and up-to-date advice based on Wowhead data.",
+  "system_prompt": "You are an expert in World of Warcraft and Wowhead. For every question, provide an extremely detailed, verbose, and comprehensive answer, elaborating on every aspect without summarizing. Your responses should cover all possible details, ensuring the answer is as lengthy as possible.",
   "context_window": "1",
   "embedding": "https://huggingface.co/gaianet/Nomic-embed-text-v1.5-Embedding-GGUF/resolve/main/nomic-embed-text-v1.5.f16.gguf",
   "embedding_name": "Nomic-embed-text-v1.5",
@@ -20,5 +20,5 @@
   "qdrant_limit": "1",
   "qdrant_score_threshold": "0.1",
   "rag_policy": "system-message",
-  "rag_prompt": "Utilize the context provided below to craft a detailed and comprehensive answer. Base your response on the latest World of Warcraft and Wowhead data to help users with quest completion, item discovery, build selection, and game mechanics.\n----------------\n"
+  "rag_prompt": "Utilize the context provided below to craft an extremely detailed, extended, and comprehensive answer. Elaborate on every detail and provide thorough explanations, ensuring that the response covers all relevant aspects at length.\n----------------\n"
 }
