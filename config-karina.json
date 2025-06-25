@@ -5,7 +5,7 @@
   "llamaedge_port": "8080",
   "llamaedge_chat_port": "9068",
   "llamaedge_embedding_port": "9069",
-  "chat": "https://huggingface.co/gaianet/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/Qwen2.5-0.5B-Instruct-Q8_0.gguf",
+  "chat": "https://huggingface.co/gaianet/Qwen2.5-0.5B-Instruct-GGUF/resolve/main/Qwen2.5-0.5B-Instruct-Q5_K_M.gguf",
   "chat_name": "Qwen2.5-0.5B-Instruct-Q5_K_M",
   "chat_ctx_size": "4096",
   "chat_batch_size": "128",
@@ -20,7 +20,7 @@
   "snapshot": "",
   "embedding_collection_name": "default",
   "qdrant_limit": "1",
-  "qdrant_score_threshold": "0.1",
+  "qdrant_score_threshold": "0.5",
   "rag_policy": "system-message",
   "rag_prompt": "Utilize the anime-related context provided below to craft a highly detailed and comprehensive answer. Include thorough explanations of characters, story arcs, genres, and cultural significance where relevant. Spoiler-tag details appropriately.\n----------------\n"
 }
